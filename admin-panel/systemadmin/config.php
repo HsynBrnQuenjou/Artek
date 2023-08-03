@@ -7,7 +7,7 @@ date_default_timezone_set('Europe/Istanbul');
 
 try{
 
-    $db = new PDO("mysql:host=sql303.epizy.com;dbname=epiz_34236397_meslekiproje;charset=utf8;","epiz_34236397","cuOgYDriruVF");
+    $db = new PDO("mysql:host=;dbname=;charset=utf8;","","");
     $db->query("SET CHARACTER SET utf8");
     $db->query("SET NAMES utf8");
 
